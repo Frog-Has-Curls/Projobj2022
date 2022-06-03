@@ -1,0 +1,6 @@
+Win 7
+https://automate.browserstack.com/builds/68f0ac7ff1346aa3c1bfc050e970e7e02d5f6a1a/sessions/58ba3e60409568d90d858d81389cd9e8a873ccae?auth_token=ff503c3071b847212bb13b1f7e488430de550c2a4ca49786294f45444613d75a
+
+
+Win 8.1
+https://automate.browserstack.com/builds/68f0ac7ff1346aa3c1bfc050e970e7e02d5f6a1a/sessions/4f2538e71a01ad0f5547d8a7fbf2af151135a8df?auth_token=ce12009aa2102b49341527885b91cacce7d9a41b509c60a1421bc641d926441c
