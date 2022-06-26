@@ -7,4 +7,4 @@ formacie JSON; w sumie powinno być 15 endpointów.
 Baza danych dowolna, sugerowana SQLite.
 
 
-Wykonano prezy pomocy tutorialu: https://www.youtube.com/watch?v=gxV7wOz_WI4&t=260s
+Wykonano przy pomocy tutorialu: https://www.youtube.com/watch?v=gxV7wOz_WI4&t=260s
