@@ -1,20 +1,58 @@
-{% extends 'base.html.twig' %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="opis" content="">
+    <meta name="author" content="">
 
-{% block title %}Hello Frog-lover!{% endblock %}
+    <title>Słowo o Żabach</title>
 
-{% block body %}
-<style>
-    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
-    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
-</style>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+          crossorigin="anonymous">
+</head>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
 
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'D:/Pulpit/Home Office magisterka/ostatni semestr/Projektowanie obiektowe/Projobj2022/Zadanie 2/src/Controller/Con2Controller.php'|file_link(0) }}">src/Controller/Con2Controller.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'D:/Pulpit/Home Office magisterka/ostatni semestr/Projektowanie obiektowe/Projobj2022/Zadanie 2/templates/con2/index.html.twig'|file_link(0) }}">templates/con2/index.html.twig</a></code></li>
-    </ul>
-</div>
-{% endblock %}
+                <a class="navbar-brand" href="/">Strona główna</a>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/create">Dodaj Żabę</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="/info">O Żabach</a>
+                        </li>
+						
+						<li class="nav-item">
+                            <a class="nav-link" href="/info">O Żabach</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="/los">Losowanie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main role="main" class="container main">
+        <div>
+            <h1>O Żabach</h1>
+            <p class="lead">Żabowate, żaby właściwe(Ranidae) – rodzina płazów z rzędu płazów bezogonowych (Anura) zaliczanych do grupy Neobatrachia.
+			<img src='https://upload.wikimedia.org/wikipedia/commons/a/af/RanaRidibundaFemale.jpg', style="width:400px;height:300px;"> 
+			<a href ='https://pl.wikipedia.org/wiki/Żabowate'>Dowiedz się więcej (link do wiki)</a>
+			
+			</p>
+        </div>
+    </main>
+</body>
+</html>

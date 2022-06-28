@@ -2,12 +2,56 @@
 
 {% block body %}
 <div class="container">
+
+ {% for message in app.flashes('notice')%}
+            <div class="alert alert-success mt-4 mb-b">
+            {{ message }}
+            
+            </div>
+
+        {%endfor%}
+
+    <table class="table">
+  <thead>
+    <tr>
+    <meta charset="utf-8">
+
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+          crossorigin="anonymous">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="/">Strona główna</a>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/create">Dodaj Żabę</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="/info">O Żabach</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="/los">Losowanie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+<div class="container">
     <div class = "row">
         <h3 class="mt-5 mb-5">Dodanie wpisu do Żabobazy</h3>
        
 
 
-        <img src='https://pbs.twimg.com/media/El2LeymXEAMjzf-.jpg', style="width:400px;height:300px;"><img src='https://pbs.twimg.com/media/El2LyAtXYAcJsOK.jpg', style="width:500px;height:300px;"><img src='https://pbs.twimg.com/media/El_5rarWkAE9t3U.jpg', style="width:400px;height:300px;">
+        <img src='https://pbs.twimg.com/media/El2LeymXEAMjzf-.jpg', style="width:300px;height:200px;"><img src='https://pbs.twimg.com/media/El2LyAtXYAcJsOK.jpg', style="width:400px;height:200px;"><img src='https://pbs.twimg.com/media/El_5rarWkAE9t3U.jpg', style="width:300px;height:200px;">
         <div class="col-md-6 offset-md-3">
             {{ form_start(form)}}
                 <div class ="form-group">

@@ -1,6 +1,30 @@
 {% extends "base.html.twig" %}
 
 {% block body %}
+
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="/">Strona główna</a>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/create">Dodaj Żabę</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="/info">O Żabach</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="/los">Losowanie</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
 <div class="container">
     <div class = "row">
         <h3 class="mt-5 mb-5">Aktualizacja Żabobazy</h3>
